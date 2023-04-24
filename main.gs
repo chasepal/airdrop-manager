@@ -186,7 +186,7 @@ function getLastTxFromZkSync() {
     }
     try {
       var url =
-        'https://zksync2-mainnet-explorer.zksync.io/transactions?limit=1&direction=newer&accountAddress=' +
+        'https://zksync2-mainnet-explorer.zksync.io/transactions?limit=1&direction=older&accountAddress=' +
         address;
       var options = {
         method: 'get',
